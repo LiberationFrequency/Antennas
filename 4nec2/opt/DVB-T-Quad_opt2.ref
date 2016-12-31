@@ -1,0 +1,21 @@
+CM 
+CM forw: 85, 90 ; back: 85, 270
+CE
+SY f=666	'Frequency in MHz
+SY u=(299.792458/f)*1.085782898	'length in meter
+SY a=u/4	'Side length in meter
+SY d=1.414213562*a	'Diagonale = Root of 2 multiplied by a
+GW	1	20	0	0	9-d	(d/2)	0	9-(d/2)	#22
+GW	2	20	(d/2)	0	9-(d/2)	0	0	9	#22
+GW	3	20	0	0	9	-(d/2)	0	9-(d/2)	#22
+GW	4	20	-(d/2)	0	9-(d/2)	0	0	9-d	#22
+GE	1
+LD	5	0	0	0	58000000
+GN	2	0	0	0	5	0.001
+EK
+EX	0	2	20	0	1	0	0
+EX	0	3	1	0	1	0	0
+FR,0,1,0,0,666
+PQ -1
+PT -1
+RP,0,19,73,1003,-90,0,5,5

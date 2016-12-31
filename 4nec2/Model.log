@@ -1,0 +1,14 @@
+WLANQuad.NEC wavelength=0.121 mtr.
+
+Warn.: Wire 1 (tag 1), seg-len (3.e-4) below 2 * radius (6.e-4)
+Error: Wire 1, seg 1 (tag 1), len/rad at junction (1) below 2.
+Error: Wire 1, seg 100 (tag 1), len/rad at junction (1) below 2.
+Warn.: Wire 2 (tag 2), seg-len (3.e-4) below 2 * radius (6.e-4)
+Error: Wire 2, seg 101 (tag 2), len/rad at junction (1) below 2.
+Error: Wire 2, seg 200 (tag 2), len/rad at junction (1) below 2.
+Warn.: Wire 3 (tag 3), seg-len (3.e-4) below 2 * radius (6.e-4)
+Error: Wire 3, seg 201 (tag 3), len/rad at junction (1) below 2.
+Error: Wire 3, seg 300 (tag 3), len/rad at junction (1) below 2.
+Warn.: Wire 4 (tag 4), seg-len (3.e-4) below 2 * radius (6.e-4)
+Error: Wire 4, seg 301 (tag 4), len/rad at junction (1) below 2.
+Error: Wire 4, seg 400 (tag 4), len/rad at junction (1) below 2.
