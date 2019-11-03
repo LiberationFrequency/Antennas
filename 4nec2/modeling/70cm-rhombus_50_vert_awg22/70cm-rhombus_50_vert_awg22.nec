@@ -1,0 +1,25 @@
+CM 
+CE
+SY fr=435	'Frequency in MHz
+SY c=299.792458	'Speed of light in Mm/s
+SY wl=c/fr	'Wavelenght in m
+SY vf=1.094842	'Verlaengerungsfaktor / extension factor
+SY u=vf*wl	'Perimeter in m incl. extension factor
+SY l=u/4	'Sidelenght in m
+SY alpha=53	'Angle in degree
+SY beta=180-alpha	'Angle in degree
+SY e=2*l*cos(alpha/2)	'horizontal diagonal
+SY f=2*l*sin(alpha/2)	'vertical diagonal
+SY h=9	'Height above 1st ground
+GW	1	20	0	0	h	e/2	0	h-(f/2)	#22
+GW	2	20	e/2	0	h-(f/2)	0	0	h-f	#22
+GW	3	20	0	0	h-f	-e/2	0	h-(f/2)	#22
+GW	4	20	-e/2	0	h-(f/2)	0	0	h	#22
+GE	1
+LD	5	0	0	0	58000000
+GN	2	0	0	0	5	0.001
+EK
+EX	0	1	20	0	1	0	0
+EX	0	2	1	0	1	0	0
+FR	0	0	0	0	435	0
+EN
