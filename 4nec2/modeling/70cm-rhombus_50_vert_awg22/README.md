@@ -1,19 +1,22 @@
 
+![Preview](https://raw.githubusercontent.com/LiberationFrequency/Antennas/master/4nec2/modeling/70cm-rhombus_50_vert_awg22/70cm-rhombus_50_awg22_crop.png)
 
-Wer?  
+
+Wer hat's gemacht?  
 -----------------------------------
-LiberationFrequency
+LiberationFrequency  
 https://github.com/LiberationFrequency/Antennas/
-
-
-Was?  
+  
+Inspiriert durch DK7ZB / Funkamateur Magazin Februar 2013 S. 182-185  
+  
+Was ist das?  
 -----------------------------------
-Das ist eine Ganzwellenschleife als Rhombus, ein gestauchtes Quadrat, was es im rechten Winkel ist.  
+Das ist eine Ganzwellenschleife als Rhombus, ein gestocktes/gestauchtes/gestrecktes(?) Quadrat, was es im rechten Winkel ist.  
 Der Fußpunktwiderstand liegt bei 50 Ω, und bleibt in fast jeder Situation stabil.  
 Was sich ändert ist die Gewinnerwartung, da kann man nicht so viel drauf geben. Das wird stark von der Höhe in Wellenlängen über dem Grund beeinflusst.  
 
 
-Wie?  
+Wie wird's gemacht?  
 -----------------------------------
 
 Vorbereitung:  
@@ -30,30 +33,33 @@ Die Mitte der beiden Diagonalen bestimmen und zusammen befestigen, nageln, schra
 Enden zur besseren Führung des Kabels mit einer Feile einkerben.  
   
 Berechnen:
-Ich habe einen kleinen Rechner für die Kommandozeile in Golang geschrieben.  
+Ich habe einen kleinen Rechner in Golang geschrieben.  
   
-./Antcalc --alpha=53.00 --factor=1.094842 --freq=435.00  
-Frequency in MHz:              435.00000
-Wavelenght in m:               0.68918
-Speed of light in Mm/s:        299.792458
-Extension/shortening factor:   1.09484
-Perimeter in m incl. factor:   0.75454
-Sidelenght in m:               0.18864
-Alpha angle in degree:         53.00000
-Beta angle in degree:          127.00000
-Horizontal diagonal in m:      0.33763
+./antcalc --alpha=53.0 --factor=1.094842 --freq=435.0  
+Frequency in MHz:              435.00000  
+Wavelenght in m:               0.68918  
+Speed of light in Mm/s:        299.792458  
+Extension/shortening factor:   1.09484  
+Perimeter in m incl. factor:   0.75454  
+Sidelenght in m:               0.18864  
+Alpha angle in degree:         53.00000  
+Beta angle in degree:          127.00000  
+Horizontal diagonal in m:      0.33763  
 Vertical diagonal in m:        0.16834  
+Surface area in m²:            0.02842  
+Apothem in m:                  0.07533  
+  
 
-
-Who?  
+Who did it?  
 -----------------------------------
-LiberationFrequency
+LiberationFrequency  
 https://github.com/LiberationFrequency/Antennas/
-
-
+  
+Inspired by DK7ZB / Funkamateur magazine February 2013 p. 182-185 in german.  
+  
 What's that?
 -----------------------------------
-This is a full wave loop as a rhombus, a compressed square, which it is at right angle.
+This is a full wave loop as a rhombus, a stacked/compressed/stretched(?) square, which it is at right angle.
 The foot point resistance is 50 Ω, and remains stable in almost any situation.
 What changes is the profit expectation, there is not so much you can put on it. This is strongly influenced by the height in wavelengths above the ground.
 
@@ -74,16 +80,19 @@ Determine the center of the two diagonals and fasten together, nail, screw, knot
 Notch the ends with a file to guide the cable better.  
   
 Calculate:
-I wrote a little calculator for the command line in Golang.  
+I wrote a little calculator in Golang.  
   
-./Antcalc --alpha=53.00 --factor=1.094842 --freq=435.00  
-Frequency in MHz:              435.00000
-Wavelenght in m:               0.68918
-Speed of light in Mm/s:        299.792458
-Extension/shortening factor:   1.09484
-Perimeter in m incl. factor:   0.75454
-Sidelenght in m:               0.18864
-Alpha angle in degree:         53.00000
-Beta angle in degree:          127.00000
-Horizontal diagonal in m:      0.33763
-Vertical diagonal in m:        0.16834
+./antcalc --alpha=53.0 --factor=1.094842 --freq=435.0  
+Frequency in MHz:              435.00000  
+Wavelenght in m:               0.68918  
+Speed of light in Mm/s:        299.792458  
+Extension/shortening factor:   1.09484  
+Perimeter in m incl. factor:   0.75454  
+Sidelenght in m:               0.18864  
+Alpha angle in degree:         53.00000  
+Beta angle in degree:          127.00000  
+Horizontal diagonal in m:      0.33763  
+Vertical diagonal in m:        0.16834  
+Surface area in m²:            0.02842  
+Apothem in m:                  0.07533  
+  
